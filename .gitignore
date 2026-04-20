@@ -1,0 +1,32 @@
+# dependencies
+node_modules
+
+# build
+/dist
+
+# local environment
+.env
+.env.*
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode
+.idea
+
+# Dexie / IndexedDB is stored in the browser; no local DB files here.
+
+# Backup exports (user downloaded JSON/CSV files)
+*.json
+*.csv
+
+# Optional: local backup folder (if you create one)
+backup/
